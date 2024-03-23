@@ -2,10 +2,93 @@ div {
     color: rgb(180, 75, 40);;
 }
 
-.btn {
-    background-color: yellow;
-}
 
 .background {
     background-color: black;
+    background-image: url(images/pexels-pixabay-326333.jpg);
+    background-size: 100%;
 }
+
+
+
+.title {
+    text-align: center;
+    background-color: #ffa71a;
+    color: black;
+    width: 300px;
+    margin: auto;
+    padding: 5px;
+    border-radius: 5%;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.containerA {
+    margin-top:20px;
+    padding: 30px;
+    height: 25%;
+    margin-bottom: 50px;
+}
+
+
+
+.recipies {
+    display: inline;
+    background-color: rgb(255, 167, 26, .3);
+    width: 540px;
+    float:inline-start;
+    margin-left: 200px;
+    height: 400px;
+    text-align: center;
+    border-radius: 5%;
+    border-style: solid;
+    border-color: black;
+    border-width: 10px;
+   
+    
+}
+
+.display {
+    display: inline;
+    width: 540px;
+    float:inline-end;
+    background-color: rgb(255, 167, 26, .3);
+    margin-right: 200px;
+    height: 400px;
+    border-radius: 5%;
+    border-style: solid;
+    border-color: black;
+    border-width: 10px;
+}
+
+.button {
+    text-decoration: none;
+    padding: 0.5rem;
+    border: 5px solid #333333;
+    border-radius: 5px;
+    margin: 15px;
+    color:black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:30px;
+    background-color: #ffa71a;
+    border-color: black;
+}
+      
+
+.toprow {
+    margin-top: 75px;
+    display: block;
+}
+
+.middlerow {
+    
+    margin-top: 75px;
+    display: block;
+}
+
+.bottomrow {
+    margin-top: 75px;
+    display: block;
+}
+
+h2 {color:black}
